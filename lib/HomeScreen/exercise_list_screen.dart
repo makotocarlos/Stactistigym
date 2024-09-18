@@ -91,8 +91,8 @@ class _ExerciseListScreenState extends State<ExerciseListScreen> {
                       );
                       return confirm;
                     } else if (direction == DismissDirection.endToStart) {
-                      // Editar
-                      // Aquí puedes agregar la lógica para editar si lo deseas
+                      
+                  
                     }
                     return false;
                   },
@@ -100,7 +100,7 @@ class _ExerciseListScreenState extends State<ExerciseListScreen> {
                     if (direction == DismissDirection.startToEnd) {
                       widget.onDelete(index); // Llama a la función de eliminación
                     } else if (direction == DismissDirection.endToStart) {
-                      // Opcionalmente, puedes implementar la lógica de edición aquí
+                      
                     }
                   },
                   child: Card(
